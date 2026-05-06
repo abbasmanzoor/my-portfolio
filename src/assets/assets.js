@@ -4,9 +4,9 @@ import profileImg from './profile.jpg';
 import projectImg1 from './project1.avif';
 import projectImg2 from './project2.avif';
 import projectImg3 from './E-commerce.png';
-import projectImg4 from './project4.avif';
-import projectImg5 from './project5.avif';
-import projectImg6 from './project6.avif';
+import projectImg4 from './portfolio.png';
+import projectImg5 from './Tic-tac-toe.png';
+import projectImg6 from './Calculator.png';
 
 
 export const assets = {
@@ -79,15 +79,16 @@ export const skills = [
 
 
 export const projects = [
-  {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
-    image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
+   {
+    title: "Portfolio Website",
+    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    image: projectImg4,
+    tech: ["REACT", "Tailwind CSS", "Framer Motion", "Markdown"],
+    icons: [FaReact, FaCloud],
     demo: "#",
     code: "#",
   },
+ 
   {
     title: "Task Management App",
     description: "A productivity application with drag-and-drop functionality and real-time updates.",
@@ -101,34 +102,35 @@ export const projects = [
     title: "E-commerce website",
     description: "A modern e-commerce platform with a focus on user experience and seamless checkout.",
     image: projectImg3,
-    tech: ["React", "js", "css"],
+    tech: ["HTML5", "CSS3", "JavaScript"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
     code: "#",
   },
-  {
-    title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-    icons: [FaReact, FaCloud],
+   {
+    title: "E-Commerce Platform",
+    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    image: projectImg1,
+    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "#",
     code: "#",
   },
+ 
   {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    title: "Tic-Tac-Toe Game",
+    description: "A classic Tic-Tac-Toe game with a modern UI and smooth animations.",
     image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
+    tech: ["HTML5", "JavaScript", "CSS3", "Framer Motion"],
     icons: [FaReact, FaNodeJs, FaDatabase ],
     demo: "#",
     code: "#",
   },
   {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
+    title: "Calculator App",
+    description: "A simple yet elegant calculator application with a modern UI and smooth animations.",
     image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3", "Framer Motion"],
     icons: [FaRobot, FaReact, FaCloud],
     demo: "#",
     code: "#",
