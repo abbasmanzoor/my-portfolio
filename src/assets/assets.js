@@ -1,12 +1,13 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 import profileImg from './profile.jpg';
-import projectImg1 from './project1.avif';
-import projectImg2 from './project2.avif';
+import projectImg5 from './Tic-tac-toe.png';
+import projectImg6 from './modren-calculator.png';
 import projectImg3 from './E-commerce.png';
 import projectImg4 from './portfolio.png';
-import projectImg5 from './Tic-tac-toe.png';
-import projectImg6 from './Calculator.png';
+import projectImg1 from './Image-Gallery.png';
+import projectImg2 from './BI-Analytic.png';
+
 
 
 export const assets = {
@@ -85,18 +86,46 @@ export const projects = [
     image: projectImg4,
     tech: ["REACT", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://my-portfolio-git-master-abbasmanzoors-projects.vercel.app/",
+    code: "https://github.com/abbasmanzoor/my-portfolio.git",
+  },
+    {
+    title: "Tic-Tac-Toe Game",
+    description: "A classic Tic-Tac-Toe game with a modern UI and smooth animations.",
+    image: projectImg5,
+    tech: ["HTML5", "JavaScript", "CSS3", "Framer Motion"],
+    icons: [FaReact, FaNodeJs, FaDatabase ],
+    demo: "https://tic-tac-toe0-nine.vercel.app/",
+    code: "https://github.com/abbasmanzoor/tic-tac-toe0.git",
+  },
+  {
+    title: "Calculator App",
+    description: "A simple yet elegant calculator application with a modern UI and smooth animations.",
+    image: projectImg6,
+    tech: ["JavaScript", "HTML5", "CSS3", "Framer Motion"],
+    icons: [FaRobot, FaReact, FaCloud],
+    demo: "https://novacalc-calculator1.vercel.app/",
+    code: "https://github.com/abbasmanzoor/novacalc-calculator1.git",
+  },
+ {
+    title: "Image Gallery",
+    description: "A responsive image gallery with filtering, sorting, and lightbox features.",
+    image: projectImg1,
+    tech: ["React", "Node.js", "MongoDB"],
+    icons: [FaReact, FaNodeJs, FaStripe],
+    demo: "https://lmage-gallery0.vercel.app/",
+    code: "https://github.com/abbasmanzoor/lmage-gallery0.git",
   },
  
-  {
-    title: "Task Management App",
-    description: "A productivity application with drag-and-drop functionality and real-time updates.",
+
+    {
+    title: "BI Analytic Dashboard",
+    description: "A comprehensive business intelligence dashboard for data visualization and analysis.",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    tech: ["TypeScript", "localStorage", "Tailwind CSS"],
+    icons: [FaVuejs, FaFire, FaCloud ],
+    demo: "https://bi-analytics-dashboard0.vercel.app/",
+    code: "https://github.com/abbasmanzoor/bi-analytics-dashboard0.git",
   },
   {
     title: "E-commerce website",
@@ -105,36 +134,8 @@ export const projects = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
-    code: "#",
+    code: "https://github.com/abbasmanzoor",
   },
-   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
-    image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
-    code: "#",
-  },
- 
-  {
-    title: "Tic-Tac-Toe Game",
-    description: "A classic Tic-Tac-Toe game with a modern UI and smooth animations.",
-    image: projectImg5,
-    tech: ["HTML5", "JavaScript", "CSS3", "Framer Motion"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Calculator App",
-    description: "A simple yet elegant calculator application with a modern UI and smooth animations.",
-    image: projectImg6,
-    tech: ["JavaScript", "HTML5", "CSS3", "Framer Motion"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  }
 ];
 
 
