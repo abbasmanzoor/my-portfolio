@@ -7,6 +7,7 @@ import projectImg3 from './E-commerce.png';
 import projectImg4 from './portfolio.png';
 import projectImg1 from './Image-Gallery.png';
 import projectImg2 from './BI-Analytic.png';
+import ScaleFlow from './ScaleFlow.png';
 
 
 
@@ -43,38 +44,38 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
+    tags: ['HTML','CSS','React js', 'Javascript', 'TypeScript','Tailwind css']
   },
-  {
-    title: 'Backend Development',
-    icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
-  },
-  {
-    title: 'Database Management',
-    icon: FaDatabase,
-    description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
-  },
-  {
-    title: 'Mobile Development',
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
-  },
-  {
-    title: 'Cloud & DevOps',
-    icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  },
-  {
-    title: 'Tools & Technologies',
-    icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
-  }
+  // {
+  //   title: 'Backend Development',
+  //   icon: FaServer,
+  //   description: 'Creating robust server-side applications and RESTful APIs.',
+  //   tags: ['Node.js', 'Express', 'Django', 'Laravel']
+  // },
+  // {
+  //   title: 'Database Management',
+  //   icon: FaDatabase,
+  //   description: 'Designing and optimizing databases for performance and scalability.',
+  //   tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+  // },
+  // {
+  //   title: 'Mobile Development',
+  //   icon: FaMobileAlt,
+  //   description: 'Building cross-platform mobile applications with modern tools.',
+  //   tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
+  // },
+  // {
+  //   title: 'Cloud & DevOps',
+  //   icon: FaCloud,
+  //   description: 'Deploying and managing applications in cloud environments.',
+  //   tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
+  // },
+  // {
+  //   title: 'Tools & Technologies',
+  //   icon: FaTools,
+  //   description: 'Essential tools and technologies I use in my development workflow.',
+  //   tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+  // }
 ];
 
 
@@ -128,6 +129,15 @@ export const projects = [
     code: "https://github.com/abbasmanzoor/bi-analytics-dashboard0.git",
   },
   {
+    title: "ScaleFlow",
+    description: "A modern SaaS platform for scaling businesses with advanced analytics and automation.",
+    image: ScaleFlow,
+    tech: ["React","typescript", "Tailwind CSS"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    demo: "https://scaleflow-saas0.vercel.app",
+    code: "https://github.com/abbasmanzoor/scaleflow-saas0.git"
+  },
+  {
     title: "E-commerce website",
     description: "A modern e-commerce platform with a focus on user experience and seamless checkout.",
     image: projectImg3,
@@ -141,28 +151,28 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Junior Frontend Developer",
+    company: "Self-Employed",
+    duration: "2025 - Present",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+ "Independently designing and developing frontend  web applications using React.js, TypeScript,Javascript and Tailwind CSS. Focused on building a strong portfolio, exploring modern frameworks, and delivering clean, responsive user interfaces.",
     color: "purple"
   },
-  {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
-    description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-    color: "pink"
-  },
-  {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue"
-  }
+  // {
+  //   role: "Web Developer",
+  //   company: "Digital Solutions LLC",
+  //   duration: "2018 - 2020",
+  //   description:
+  //     "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+  //   color: "pink"
+  // },
+  // {
+  //   role: "Junior Developer",
+  //   company: "StartUp Ventures",
+  //   duration: "2016 - 2018",
+  //   description:
+  //     "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+  //   color: "blue"
+  // }
 ];
 

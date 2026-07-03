@@ -45,45 +45,7 @@ const Navbar = () => {
             </span>
           </a>
           
-          {/* Improved Animated Dot - Next to Name */}
-          <div className='relative flex items-center justify-center'>
-            {/* Main Dot with multiple animations */}
-            <div
-              className='w-6 h-6 md:w-8 md:h-8 rounded-full cursor-pointer transition-all duration-300'
-              style={{
-                background: 'linear-gradient(135deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #8800ff, #ff0088)',
-                backgroundSize: '400% 400%',
-                animation: 'gradientShift 3s ease infinite, pulse 1.5s ease-in-out infinite, bounce 1s ease-in-out infinite, rotate 4s linear infinite',
-                boxShadow: '0 0 15px rgba(255,0,255,0.8), 0 0 30px rgba(0,255,255,0.6), inset 0 0 10px rgba(255,255,255,0.5)',
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'scale(1.6) rotate(180deg)';
-                e.currentTarget.style.transition = 'all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'scale(1) rotate(0deg)';
-              }}
-            ></div>
-            
-            {/* Glow effect behind dot */}
-            <div className='absolute inset-0 rounded-full blur-xl opacity-50 animate-pulse'
-              style={{
-                background: 'linear-gradient(135deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #8800ff, #ff0088)',
-                backgroundSize: '400% 400%',
-                animation: 'gradientShift 3s ease infinite',
-                filter: 'blur(8px)',
-                zIndex: -1,
-              }}
-            ></div>
-            
-            {/* Ripple effect dots around */}
-            <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-purple-500 opacity-0 animate-ripple'></div>
-            <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 md:w-14 md:h-14 rounded-full border-2 border-pink-500 opacity-0 animate-ripple-delayed'></div>
-            <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-blue-500 opacity-0 animate-ripple-more'></div>
-            
-            {/* Inner sparkle dot */}
-            <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 md:w-3 md:h-3 bg-white rounded-full animate-ping opacity-75'></div>
-          </div>
+         
         </div>
 
         {/* Desktop Menu - Each item comes one by one from bottom */}

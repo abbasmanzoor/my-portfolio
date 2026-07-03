@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { RxOpacity } from 'react-icons/rx'
 import '../index.css'
-// ✅ Ye import add karo
 import profileImage from '../assets/profile.jpg'
 
 const Hero = () => {
