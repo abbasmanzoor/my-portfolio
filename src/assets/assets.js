@@ -11,7 +11,6 @@ import ScaleFlow from './ScaleFlow.png';
 
 export const assets = {
     profileImg,
-    // ✅ Google Drive Direct Download Link
     resume: 'https://drive.google.com/uc?export=download&id=137xaOD2ZhzyEUZ09KvxgXqY3pdRlt0H_',
 };
 
@@ -113,10 +112,24 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Junior Frontend Developer",
+    role: "Frontend Developer",
     company: "Self-Employed",
     duration: "2025 - Present",
-    description: "Independently designing and developing frontend web applications using React.js, TypeScript, Javascript and Tailwind CSS. Focused on building a strong portfolio, exploring modern frameworks, and delivering clean, responsive user interfaces.",
+    description: "Building modern web applications using React.js, TypeScript and Tailwind CSS. Focused on creating responsive user-friendly interfaces with clean and maintainable code.",
     color: "purple"
   },
+  {
+    role: "React Developer",
+    company: "Personal Projects",
+    duration: "2025 - 2026",
+    description: "Designed and developed multiple full-stack applications including  BI Analytics Dashboard and SaaS product. Strengthened skills in React, Firebase and modern JavaScript.",
+    color: "pink"
+  },
+  {
+    role: "Web Developer (Freelance)",
+    company: "Various Clients",
+    duration: "2025 - 2026",
+    description: "Collaborated with small businesses to build custom websites and web applications. Delivered pixel-perfect designs with responsive layouts and optimized performance.",
+    color: "blue"
+  }
 ];
