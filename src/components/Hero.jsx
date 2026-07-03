@@ -37,7 +37,6 @@ const Hero = () => {
 
         {/* Text section */}
         <div className="md:w-1/2">
-          {/* Responsive font sizes to keep the whole name on one line */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 whitespace-nowrap">
             Hi! I'm <span className="text-purple-500">Abbas Manzoor</span>
           </h1>
@@ -47,25 +46,31 @@ const Hero = () => {
           <p className="text-lg text-gray-300 mb-8">
             Specializing in building responsive high-performance web applications with React.js, TypeScript and Tailwind CSS. Let's bring your ideas to life.
           </p>
-          <div className="flex flex-wrap gap-3">
-            <ScrollLink
-              to="projects"
-              smooth={true}
-              duration={500}
-              offset={-70}
-              className="bg-purple-500 text-white px-6 py-3 rounded-full hover:bg-purple-600 transition duration-300 cursor-pointer inline-block"
-            >
-              View My Projects →
-            </ScrollLink>
 
-            <a
-              href={assets.resume}
-              download="Abbas_Manzoor_Resume.pdf"
-              className="bg-purple-700 text-white px-6 py-3 rounded-full hover:bg-purple-800 transition duration-300 inline-block"
-            >
-              📄 Download CV
-            </a>
+          {/* Buttons - fixed mobile layout */}
+          <div className="flex flex-col items-start gap-3">
+            {/* First row: View Projects + Download CV - inline always */}
+            <div className="flex flex-nowrap gap-2 sm:gap-3">
+              <ScrollLink
+                to="projects"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="bg-purple-500 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-purple-600 transition duration-300 cursor-pointer inline-block text-sm sm:text-base whitespace-nowrap"
+              >
+                View My Projects →
+              </ScrollLink>
 
+              <a
+                href={assets.resume}
+                download="Abbas_Manzoor_Resume.pdf"
+                className="bg-purple-700 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-purple-800 transition duration-300 inline-block text-sm sm:text-base whitespace-nowrap"
+              >
+                📄 Download CV
+              </a>
+            </div>
+
+            {/* Second row: Let's Talk alone */}
             <a
               href="#contact"
               className="border border-purple-500 text-purple-500 px-6 py-3 rounded-full hover:bg-purple-500 hover:text-white transition duration-300 inline-block"
