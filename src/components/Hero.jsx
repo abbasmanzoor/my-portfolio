@@ -47,16 +47,16 @@ const Hero = () => {
             Specializing in building responsive high-performance web applications with React.js, TypeScript and Tailwind CSS. Let's bring your ideas to life.
           </p>
 
-          {/* Buttons - fixed mobile layout */}
+          {/* Buttons – compact on mobile */}
           <div className="flex flex-col items-start gap-3">
-            {/* First row: View Projects + Download CV - inline always */}
-            <div className="flex flex-nowrap gap-2 sm:gap-3">
+            {/* First row: inline, never wrap */}
+            <div className="flex flex-nowrap gap-1 sm:gap-3">
               <ScrollLink
                 to="projects"
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="bg-purple-500 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-purple-600 transition duration-300 cursor-pointer inline-block text-sm sm:text-base whitespace-nowrap"
+                className="bg-purple-500 text-white px-2 py-1 sm:px-6 sm:py-3 rounded-full hover:bg-purple-600 transition duration-300 cursor-pointer inline-block text-[10px] sm:text-base whitespace-nowrap"
               >
                 View My Projects →
               </ScrollLink>
@@ -64,13 +64,13 @@ const Hero = () => {
               <a
                 href={assets.resume}
                 download="Abbas_Manzoor_Resume.pdf"
-                className="bg-purple-700 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full hover:bg-purple-800 transition duration-300 inline-block text-sm sm:text-base whitespace-nowrap"
+                className="bg-purple-700 text-white px-2 py-1 sm:px-6 sm:py-3 rounded-full hover:bg-purple-800 transition duration-300 inline-block text-[10px] sm:text-base whitespace-nowrap"
               >
-                📄 Download CV
+                Download CV
               </a>
             </div>
 
-            {/* Second row: Let's Talk alone */}
+            {/* Second row: Let's Talk */}
             <a
               href="#contact"
               className="border border-purple-500 text-purple-500 px-6 py-3 rounded-full hover:bg-purple-500 hover:text-white transition duration-300 inline-block"
