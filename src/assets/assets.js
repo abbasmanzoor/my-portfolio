@@ -9,12 +9,11 @@ import projectImg1 from './Image-Gallery.png';
 import projectImg2 from './BI-Analytic.png';
 import ScaleFlow from './ScaleFlow.png';
 
-
-
 export const assets = {
     profileImg,
-}
-
+    // ✅ Google Drive Direct Download Link
+    resume: 'https://drive.google.com/uc?export=download&id=137xaOD2ZhzyEUZ09KvxgXqY3pdRlt0H_',
+};
 
 export const aboutInfo = [
     {
@@ -35,9 +34,7 @@ export const aboutInfo = [
       description: 'I write maintainable, efficient code following best practices and modern patterns.',
       color: 'text-blue'
     }
-  ];
-
-
+];
 
 export const skills = [
   {
@@ -46,39 +43,7 @@ export const skills = [
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
     tags: ['HTML','CSS','React js', 'Javascript', 'TypeScript','Tailwind css']
   },
-  // {
-  //   title: 'Backend Development',
-  //   icon: FaServer,
-  //   description: 'Creating robust server-side applications and RESTful APIs.',
-  //   tags: ['Node.js', 'Express', 'Django', 'Laravel']
-  // },
-  // {
-  //   title: 'Database Management',
-  //   icon: FaDatabase,
-  //   description: 'Designing and optimizing databases for performance and scalability.',
-  //   tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
-  // },
-  // {
-  //   title: 'Mobile Development',
-  //   icon: FaMobileAlt,
-  //   description: 'Building cross-platform mobile applications with modern tools.',
-  //   tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
-  // },
-  // {
-  //   title: 'Cloud & DevOps',
-  //   icon: FaCloud,
-  //   description: 'Deploying and managing applications in cloud environments.',
-  //   tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  // },
-  // {
-  //   title: 'Tools & Technologies',
-  //   icon: FaTools,
-  //   description: 'Essential tools and technologies I use in my development workflow.',
-  //   tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
-  // }
 ];
-
-
 
 export const projects = [
    {
@@ -94,7 +59,7 @@ export const projects = [
     title: "Tic-Tac-Toe Game",
     description: "A classic Tic-Tac-Toe game with a modern UI and smooth animations.",
     image: projectImg5,
-    tech: ["HTML5", "JavaScript", "CSS3", "Framer Motion"],
+    tech: ["HTML5", "JavaScript", "CSS3"],
     icons: [FaReact, FaNodeJs, FaDatabase ],
     demo: "https://tic-tac-toe0-nine.vercel.app/",
     code: "https://github.com/abbasmanzoor/tic-tac-toe0.git",
@@ -112,13 +77,11 @@ export const projects = [
     title: "Image Gallery",
     description: "A responsive image gallery with filtering, sorting, and lightbox features.",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB"],
+    tech: ["HTML5", "CSS3", "JavaScript"],
     icons: [FaReact, FaNodeJs, FaStripe],
     demo: "https://lmage-gallery0.vercel.app/",
     code: "https://github.com/abbasmanzoor/lmage-gallery0.git",
   },
- 
-
     {
     title: "BI Analytic Dashboard",
     description: "A comprehensive business intelligence dashboard for data visualization and analysis.",
@@ -148,31 +111,12 @@ export const projects = [
   },
 ];
 
-
 export const workData = [
   {
     role: "Junior Frontend Developer",
     company: "Self-Employed",
     duration: "2025 - Present",
-    description:
- "Independently designing and developing frontend  web applications using React.js, TypeScript,Javascript and Tailwind CSS. Focused on building a strong portfolio, exploring modern frameworks, and delivering clean, responsive user interfaces.",
+    description: "Independently designing and developing frontend web applications using React.js, TypeScript, Javascript and Tailwind CSS. Focused on building a strong portfolio, exploring modern frameworks, and delivering clean, responsive user interfaces.",
     color: "purple"
   },
-  // {
-  //   role: "Web Developer",
-  //   company: "Digital Solutions LLC",
-  //   duration: "2018 - 2020",
-  //   description:
-  //     "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-  //   color: "pink"
-  // },
-  // {
-  //   role: "Junior Developer",
-  //   company: "StartUp Ventures",
-  //   duration: "2016 - 2018",
-  //   description:
-  //     "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-  //   color: "blue"
-  // }
 ];
-
