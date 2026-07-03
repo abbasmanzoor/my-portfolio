@@ -16,7 +16,7 @@ const Hero = () => {
       className="min-h-screen flex items-center pt-20 pb-16 bg-gray-900"
     >
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-        {/* Image section – shown first */}
+        {/* Image section */}
         <div className="md:w-1/2 flex justify-center mb-10 md:mb-0">
           <motion.div
             initial={{ scale: 0, opacity: 0 }}
@@ -47,16 +47,16 @@ const Hero = () => {
             Specializing in building responsive high-performance web applications with React.js, TypeScript and Tailwind CSS. Let's bring your ideas to life.
           </p>
 
-          {/* Buttons – compact on mobile */}
+          {/* Buttons – moderate mobile size */}
           <div className="flex flex-col items-start gap-3">
-            {/* First row: inline, never wrap */}
-            <div className="flex flex-nowrap gap-1 sm:gap-3">
+            {/* First row – never wrap */}
+            <div className="flex flex-nowrap gap-1.5 sm:gap-3">
               <ScrollLink
                 to="projects"
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="bg-purple-500 text-white px-2 py-1 sm:px-6 sm:py-3 rounded-full hover:bg-purple-600 transition duration-300 cursor-pointer inline-block text-[10px] sm:text-base whitespace-nowrap"
+                className="bg-purple-500 text-white px-3 py-1.5 sm:px-6 sm:py-3 rounded-full hover:bg-purple-600 transition duration-300 cursor-pointer inline-block text-xs sm:text-base whitespace-nowrap"
               >
                 View My Projects →
               </ScrollLink>
@@ -64,9 +64,9 @@ const Hero = () => {
               <a
                 href={assets.resume}
                 download="Abbas_Manzoor_Resume.pdf"
-                className="bg-purple-700 text-white px-2 py-1 sm:px-6 sm:py-3 rounded-full hover:bg-purple-800 transition duration-300 inline-block text-[10px] sm:text-base whitespace-nowrap"
+                className="bg-purple-700 text-white px-3 py-1.5 sm:px-6 sm:py-3 rounded-full hover:bg-purple-800 transition duration-300 inline-block text-xs sm:text-base whitespace-nowrap"
               >
-                Download CV
+                📄 Download CV
               </a>
             </div>
 
