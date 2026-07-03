@@ -30,7 +30,7 @@ const Hero = () => {
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
               src={profileImage}
               alt="Profile"
-              className="relative w-50 h-50 md:w-50 md:h-50 rounded-full object-cover border-4 border-purple-500 shadow-2xl"
+              className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-purple-500 shadow-2xl"
             />
           </motion.div>
         </div>
